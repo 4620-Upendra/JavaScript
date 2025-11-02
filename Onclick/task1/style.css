@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 500px;
+    width: 700px;
+    margin-left: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 20px; 
+    border: 2px solid;  
+}
+.buttons{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.buttons button{
+    color: white;
+    padding: 5px;
+}
+
+.colorbtn{
+   font-size: 20px;
+}
+#red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+}
+#Purple{
+    background-color:Purple ;
+}
