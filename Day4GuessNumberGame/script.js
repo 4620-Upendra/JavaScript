@@ -47,15 +47,16 @@ document.getElementById("gamename").style.backgroundColor="transparent"
 document.getElementById("resultp2").innerText=`The number was ${inputValue.value}`
 document.getElementById("resultp3").innerText=`You guessed the number in ${guess} tries.`
 resultfrom.style.display="flex";
-resultfrom.style.cssText = "justify-content:center; background-color:#6A0DAD; height:70%; width:30%; font-size:1.2rem;";
+resultfrom.style.flexWrap="wrap";
+resultfrom.style.cssText = "justify-content:center; background-color:#6A0DAD; height:70%; width:30%; font-size:1.2rem; color:white; " ;
 let paras=document.querySelectorAll("#resultmatter p")
 paras.forEach(p=>{
     p.style.margin="3px";
 })
-
 document.getElementById("resultp3").innerText=`You guessed the number in ${guess} tries.`
 document.getElementById("resultmatter").style.cssText = "display:flex; flex-direction:column; align-items:center;";
 document.getElementById("restartbtn").style.cssText="padding:5px; margin:10px;"
 document.getElementById("restartbtn").style.marginLeft="40%"
-document.getElementById("resultdiv").style.cssText="height:50%; width:75%"
+document.getElementById("restbtn").style.display="flex";
+// document.getElementById("resultdiv").style.cssText="height:50%; width:75%"
 }
