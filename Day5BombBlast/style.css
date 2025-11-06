@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+.maincointainer{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg, #020024, #090979, #00d4ff);
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+}
+.subcontainer{
+    padding: vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    /* background-color: blueviolet; */
+     background: rgba(255, 255, 255, 0.15);
+    border-radius: 5%;
+}
+.blastimg{
+    display: none;
+}
+.timerinp{
+    position: absolute;
+    top: 37%;
+    left: 43%;
+    color: red;
+    font-size: 50px;
+}
+.bomb{
+    position: relative;
+    margin: 10%;
+}
+.bombimg{
+    width: 150%;
+}
+.startbtn{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: #00ff8c;
+    color: black;
+    margin: 5px;
+    cursor: pointer;
+}
+.endbtn{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: #ff5e5e;
+    margin: 5px;
+    cursor: pointer;
+    color: black;
+}
+
+#heading{
+    font-size: 40px;
+}
+
+.startbtn:hover {
+      background-color: #04c26a;
+    }
+.endbtn:hover {
+      background-color: #d64646;
+    }
