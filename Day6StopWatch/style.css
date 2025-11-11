@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(circle at top, #3b82f6, #0f172a);
+}
+.container1 p{
+    /* margin: 10px; */
+    padding: 20px;
+}
+.container1{
+    /* background-color: red; */
+    background: rgba(255, 255, 255, 0.07);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.4),
+                0 0 35px rgba(59, 130, 246, 0.4);
+    border-radius: 30px;
+    color: white;
+}
+.p3{
+    display: flex;
+    gap: 20px;
+}
+.p3 button{
+    border-radius: 30px;
+    padding: 12px 24px;
+    border-style: none;
+    cursor:pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+.p1{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 3.5px;
+}
+.p2{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.startbtn{
+    background-color: rgb(107, 206, 107);  
+}
+.pausebtn{
+    background-color: #d97706;
+}
+.resetbtn{
+    background-color: #dc2626;
+}
