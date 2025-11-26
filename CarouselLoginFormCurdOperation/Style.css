@@ -1,0 +1,206 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+}
+body{
+    overflow: hidden;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: blueviolet;
+    color: white;
+}
+
+#loginbtn{
+    padding: 10px 20px 10px 20px;
+    color: blueviolet;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+#loginbtn:hover{
+    background-color:aqua;
+}
+#heading{
+    font-size: 40px;
+    text-shadow: 6px 6px 3px black;
+}
+#images{
+    width: 100%;
+    height: 100%;
+}
+.carousel{
+    height: 40vh;
+    position: relative;
+}
+.dots{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.dots div{
+    border-radius: 55%;
+    background-color: white;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    padding: 20px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    height: 90vh;
+    position: fixed;
+    right: -450px;
+    background-color: #34495e;
+    box-shadow: -5px -5px 1px;
+    border-radius: 10px;
+    position: absolute;    
+}
+input{
+    padding: 10px 20px;   
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+    width: 80%;
+}
+.conatiner{
+    display: flex;
+    background-color: rgb(31, 7, 7);
+}
+#loginh{
+    font-size: 40px;
+   margin: 10px;
+   color: white;
+   margin-bottom: 20px;
+}
+#cross{
+    /* width: fit-content; */
+    margin-left: 90%;
+    font-size: 40px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    /* position:fixed;
+    background-color: yellow;
+    right: 0px; */
+}
+#createbtn{
+    color: white;
+    padding: 8px 15px;  
+    border: none;
+    border-radius: 10px;
+    background-color: blueviolet;
+    font-weight: bolder;
+    font-size: 20px;
+    width: 82%;
+}
+#createbtn:hover{
+     transform: scale(1.10);
+}
+
+
+/* USER TABLE MAIN WRAPPER */
+.userstable {
+    width: 100%;
+    margin: 30px auto;
+    text-align: left; /* Align text/table left */
+    font-family: Arial, sans-serif;
+}
+
+/* SHOW USER DATA BUTTON */
+#tableh {
+    background: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    margin-bottom: 15px;
+    transition: 0.3s ease;
+    margin-left: 30%;
+}
+
+#tableh:hover {
+    background: #0056d2;
+    transform: scale(1.05);
+}
+
+/* TABLE WRAPPER */
+.table1 {
+    width: 100%;
+    display: none;
+    margin-top: 20px;
+}
+
+/* TABLE LEFT SIDE */
+#useraccs {
+    width: 70%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    font-size: 15px;
+    margin-left: 0; /* Left aligned */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* HEADERS */
+#useraccs th {
+    background: #007bff;
+    color: white;
+    padding: 12px 15px;
+}
+
+/* DATA */
+#useraccs td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* ROW HOVER */
+#useraccs tr:hover {
+    background-color: #f2f7ff;
+}
+
+/* BUTTONS */
+#useraccs button {
+    padding: 6px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+/* EDIT BUTTON */
+#useraccs button:nth-child(1) {
+    background: #28a745;
+    color: white;
+}
+#useraccs button:nth-child(1):hover {
+    background: #1e7d34;
+}
+
+/* DELETE BUTTON */
+#useraccs button:nth-child(2) {
+    background: #dc3545;
+    color: white;
+}
+#useraccs button:nth-child(2):hover {
+    background: #b52a35;
+}
