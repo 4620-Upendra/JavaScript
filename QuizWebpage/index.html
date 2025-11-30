@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Website</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="instructions">
+            <h2 id="quizHeading">Quiz Instructions</h2>
+            <p class="p1">1️⃣ You have <b>10 minutes</b> to complete the quiz.</p>
+            <p class="p1">2️⃣ Correct answer: <b>+2 marks</b>.</p>
+            <p class="p1">3️⃣ Wrong answer: <b>-1 mark</b>.</p>
+            <p class="p1">4️⃣ Click Start to begin the quiz.</p>
+            <button id="startbtn">Start Quiz</button>
+        </div>
+        <div id="questionscon">
+            <div class="timerCount"></div>
+            <h3 id="question"></h3>
+            <button class="option"></button>
+            <button class="option"></button>
+            <button class="option"></button>
+            <button class="option"></button>
+            <button id="nextQues">Next</button>
+        </div>
+        <div id="result">
+            <h3 id="resultShow"></h3>
+            <button id="restartQuiz">Restart Quiz</button>
+        </div>
+    </div>
+    <script src="./Script.js"></script>
+</body>
+</html>
