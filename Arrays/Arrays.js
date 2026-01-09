@@ -9,6 +9,7 @@ console.log(arr[1]);
 //Array methods:
 //1)push():Add item at end  
 arr.push(40)
+arr.push(50,60,70)
 
 //2)pop():remove last item and pop on empty array gives:undefined
 arr.pop()
@@ -23,11 +24,12 @@ arr.shift();
 console.log(arr.includes(20));
 
 //6)indexOf():Find index of value   :index or -1
-console.log(arr.indexOf(2));
+console.log(arr.indexOf(20));
+console.log(arr.indexOf(20,2));    // arr.indexOf(searchelement,fromindex)
 
-//7)slice():Copy part of array (no change to original)
+//7)slice():Copy part of array (no change to original)(like subarray)
 let a=[1,2,3,4,5];
-// syntax:arrayname.slice(startIndes,endIndex) (endIndex excludes)
+// syntax:arrayname.slice(startIndes,endIndex) (endIndex excludes)  
 console.log(a.slice(1,4));
 console.log(a.slice(10,13));  //slice() with invalid range:Returns empty array,Does not modify original array.
 
