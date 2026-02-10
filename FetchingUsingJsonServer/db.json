@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "name": "upendra kumar",
+      "email": "upendra@gmail.com",
+      "password": "upendra123",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "amosh",
+      "email": "amosh@gmail.com",
+      "password": "amosh123"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Iphone 16",
+      "catory": "eletronics"
+    }
+  ]
+}
